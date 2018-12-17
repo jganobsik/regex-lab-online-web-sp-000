@@ -30,6 +30,10 @@ end
 
 def valid_phone_number?(phone)
 valid = phone.match(/^\(?\d{3}\)?[- ]?\d{3}[- ]?\d{4}$/)
-
+ if valid != nil
+    return true
+  else
+    return false
+  end
 
 end
