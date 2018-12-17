@@ -19,7 +19,7 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
 is_capitalized = text.match(/^[A-Z]/)
-ends_in_punctuation = text.match()
+ends_in_punctuation = text.match[-1](/)
 end
 
 def valid_phone_number?(phone)
